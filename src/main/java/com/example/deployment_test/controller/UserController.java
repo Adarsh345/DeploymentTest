@@ -36,6 +36,6 @@ public class UserController {
 
     @GetMapping(path = "/")
     public String deploymentConformation(){
-        return "service deployed";
+        return "<b>LOVE YOU JAN</b>";
     }
 }
