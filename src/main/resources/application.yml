@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tadarsh101:Adarsh%40121@deploymentest.dgzwh.mongodb.net/deploymentTest?retryWrites=true&w=majority&appName=DeploymenTest
+
