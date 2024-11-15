@@ -27,8 +27,15 @@ public class UserController {
     }
 
 
+
+
     @GetMapping(path = "/get/all")
     public List<User> getAllUser(){
         return userRepository.findAll();
+    }
+
+    @GetMapping(path = "/")
+    public String deploymentConformation(){
+        return "service deployed";
     }
 }
